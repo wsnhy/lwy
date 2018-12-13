@@ -1,0 +1,436 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure {
+	margin: 0;
+	padding: 0;
+}
+html,body {
+	height: 100%;
+	background: white;
+}
+body {
+	font-family: "微软雅黑", Arial;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+
+.shoopput{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	float: right;
+	margin-right: 180px;
+	background: red;
+	font-size: 18px;
+}
+.hdtop{
+	width: 100%;
+
+}
+.toper{
+	width: 1200px;
+	margin: 0 auto;
+	height: 93px;
+	background: white;
+	line-height: 93px;
+
+
+	
+}
+.toper a:first-child{
+	float: left;
+	width: 52px;
+	height:52px;
+	border-radius: 50%;	
+	margin-top:10px;
+
+}
+
+.toper h1{
+	float: left;
+	margin-left:30px;
+}
+.toper a{
+	float: right;
+	margin-right: 10px;
+
+}
+
+
+	/*下拉菜单一级菜单*/
+	.one{
+		width:550px; 
+		height:40px;
+		background:white;
+		line-height: 40px;
+	}
+	.oneli{
+		width: 90px;
+		height: 40px;
+		text-align: center;
+		position: relative;
+		float: left;
+		margin-left:20px;
+		font-size: 16px;
+	}
+	.oneli a:hover{
+		color: red;
+	}
+	/*二级菜单*/
+	.two{
+		width:100px;
+		background: #fff9aa;
+		position: absolute;
+		display: none;
+		z-index: 2;
+	}
+	.oneli:hover .two{
+		display: block;
+	}
+	.twoli a:hover{ color: red;}
+	
+	.tli{
+		position: relative;
+	}
+	.seone{
+		display: none;
+		position: absolute;
+		left: -130px;
+		width:550px;
+		height: 200px;
+		background: white;
+		font-size: 14px;
+	}
+	.seone a{
+		display: block;
+		float: left;
+		margin-left: 5px;
+		margin-top: 30px;
+	}
+	.tli:hover .seone{
+		display: block;
+	}
+.sousuo{
+	width: 233px;
+	border-radius: 10px;
+	background: white;
+	margin-left: 100px;
+	border: 1px solid black;
+
+}
+.sousuo input{
+	width: 186px;
+	height: 20px;
+	line-height: 20px;
+	margin-left:10px;
+	border: none; 
+}
+/*登录注册	*/
+.cookie {
+display: flex;
+align-items: center;
+margin-left: 82px;
+}
+.cookie a{
+	display: block;
+}
+.cookie a img{
+	display: block;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+}
+.cookie-second img{
+	display: block;
+	width: 25px;
+	height: 25px;
+}
+.cookie-second{
+	margin-left: 10px;
+}
+.cookie{
+	position: relative;
+}
+.coka{
+	position: absolute;
+	width: 80px;
+	font-size: 12px;
+	top: 30px;
+	left: -20px;
+	z-index: 1;
+	text-align: center;
+	background: white;
+	display: none;
+}
+.coka a:hover{
+	color: red;
+}
+.cookie:hover .coka{
+	display: block;
+}
+.coka a{
+	display: block;
+	height: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+/*购物车*/
+.shop{
+	width: 100%;
+	background: #eee;
+	padding:50px 0; 
+}
+.box{
+				width: 1200px;
+				margin: 50px auto;
+				background: white;
+			}
+			.content.footer{
+				width: 100%;	
+				overflow: hidden;
+			}
+			.header p{
+				float: left;
+			}
+			.header p:first-child{
+				width: 600px;
+				height: 50px;
+				line-height: 50px;
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.header p:nth-child(2){
+				width: 300px;
+				margin-top: 34px;
+				height: 16px;
+				line-height: 16px;
+				font-size: 12px;
+				color: gray;
+			}
+			.header p:last-child{
+				width: 100px;
+				margin-top: 34px;
+				height: 16px;
+				line-height: 16px;
+				font-size: 12px;
+				color: gray;
+				text-align: right;
+			}
+			.content-item{
+				width: 100%;
+				overflow: hidden;
+			}
+			.shop-info{
+				width: 100%;
+				overflow: hidden;
+				padding:10px 0px 10px 20px;
+			}
+			.shop-info-img,.shop-info-text,.shop-info-price,.shop-info-number{
+				float: left;
+			}
+			.shop-info-img{
+				width: 70px;
+				height: 100px;
+				margin-right: 20px;
+			}
+			.shop-info-img img{
+				width: 70px;
+				height: 100px;
+			}
+			.shop-info-text{
+				width: 490px;
+				height: 100px;
+			}
+			.shop-info-text p:first-child{
+				font-size: 14px;
+			}
+			.shop-info-text p:first-child a{
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.shop-info-text p:nth-child(2){
+				font-size: 12px;
+				height: 18px;
+				line-height: 18px;
+			}
+			.shop-info-text p:nth-child(3){
+				font-size: 12px;
+				height: 18px;
+				line-height: 18px;
+			}
+			.shop-info-text p:nth-child(4){
+				font-size: 12px;
+				height: 18px;
+				line-height: 18px;
+			}
+			.shop-info-text p:nth-child(5){
+				font-size: 12px;
+				height: 25px;
+				line-height: 30px;
+			}
+			.shop-info-text p:nth-child(5) span:first-child{
+				margin-right: 10px;
+				color: blue;
+			}
+			.shop-info-text p:nth-child(5) span:last-child{
+				margin-left: 10px;
+				color: blue;
+			}
+			.shop-info-price{
+				width: 300px;
+				font-size: 16px;
+				color: darkred;
+				font-weight: bold;
+			}
+			.shop-info-number{
+				width: 100px;
+				text-align: right;
+			}
+			.shop-info-number input{
+				width: 70px;
+				text-indent: 10px;
+			}
+			.noGoods{
+				color: orange;
+			}
+			.haveGoods{
+				color: green;
+			}
+			.footer{
+				padding-right: 200px;
+				height: 30px;
+				line-height: 30px;
+				text-align: right;
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.footer span:last-child{
+				color: darkred;
+			}
+			.deleteBtn{
+				cursor:pointer;
+			}
+
+			.end{
+	width: 100%;
+	background: #484442;
+	padding:45px 0;
+}
+
+.endbootom{
+	width: 1200px;
+	margin: auto;
+	background: #484442;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	height: 95px;
+
+	border-bottom: 1px solid #666666;
+
+}
+.endone{
+width: 260px;
+height: 49px;
+display: flex;
+align-items: center;
+}
+.endone p{
+	font-size: 19px;
+	color: white;
+}
+.endone img{
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+
+}
+
+.endtwo{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #666666;
+
+}
+.endtwo a{
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+
+}
+.endtwo p{
+	font-size: 14px;
+	color: white;
+}
+.endtwo p:first-child{
+	margin-left: 30px;
+}
+.endtwoa{
+	margin-left: 18px;
+}
+.endtwob{
+	margin-left: 450px;
+}
+
+
+
+
+/*最底部连接*/
+.endthree{
+	width: 1200px;
+	margin: auto;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.lianjie{
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.lianjie a{
+	display: block;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	margin-left: 8px;
+	height: 20px;
+	line-height: 15px;
+
+
+}
+.gongshang{
+	margin-left: 30px;
+	
+}
+
+.beeFob1 #act{
+	
+	border-color: red;
+}
+
+/*
+.showBox{
+	width:300px;
+	height:300px;
+	background: black;
+	z-index: 3;
+	position: absolute;
+	left:900px;
+	top:300px;
+}
+*/
